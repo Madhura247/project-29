@@ -5,6 +5,8 @@ const Constraint = Matter.Constraint;
 
 function setup() {
     createCanvas(1200,500);
+    engine = Engine.create();
+    world = engine.world;
     
     ground = new Ground(width/2, 480, width, 20)
 
