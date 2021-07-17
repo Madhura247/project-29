@@ -19,7 +19,7 @@ function setup() {
     polygon = Bodies.circle(50, 200, 20);
     World.add(world,polygon);
 
-    slingShot = new SlingShot(this.polygon, {x:100, y:200});
+    slingShot = new SlingShot(this.polygon, {x:150, y:200});
 
     block1 = new Block(400, 401, 32, 42);
     block2 = new Block(431, 401, 32, 42);
